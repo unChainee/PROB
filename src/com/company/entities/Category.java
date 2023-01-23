@@ -1,11 +1,11 @@
 package com.company;
 
 public class Category {
-    private String name;
+    private String name = null;
 
     //validator!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    public Category(){
-        this.name="";
+    public Category(String name){
+        this.setName(name);
     }
 
     public String getName() {
